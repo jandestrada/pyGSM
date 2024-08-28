@@ -83,7 +83,7 @@ class PrimitiveInternalCoordinates(InternalCoordinates):
                 g.__class__ = MyG
 
             #ALEX CHANGE for lines 86-91
-            self.get_hybrid_indices(xyz)
+            # self.get_hybrid_indices(xyz)
             #nifty.click()
             self.newMakePrimitives(xyz)
             print(" done making primitives")
